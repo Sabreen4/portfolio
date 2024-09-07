@@ -1,0 +1,482 @@
+/*body
+{
+    background-color: black;
+}
+.header
+{
+    background-color: black;
+}
+.head{
+  color:rgb(24, 201, 232);
+  margin-right: auto;
+  padding:30px;
+  text-shadow: rgb(15, 190, 238) 0 -2px;
+}
+
+.nav
+{
+    
+    color: rgb(23, 222, 233);
+    display:flex;
+    justify-content: flex-end;
+    box-shadow:
+    inset 0 -3em 3em rgba(6, 194, 236, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(7, 167, 212, 0.6);
+}
+.content
+{
+    color:rgb(16, 180, 225);
+    justify-content:space-around;
+    text-align:right;
+    padding:30px;
+    text-align: end;   
+    text-decoration: none; 
+    text-shadow: rgb(14, 187, 240) 0 -2px; 
+}
+.content:hover
+{
+   text-decoration:underline;
+   color:white;
+}
+.head:hover
+{
+    text-decoration:none;
+}
+.about
+{
+    margin-right:auto;
+    color: aliceblue;
+    text-align: center;
+    margin-top:180px;
+    font-size:35px;
+    float: inline-start;
+    margin-left:350px;
+
+}
+.my_pic {
+    margin-top: 1em;
+    float: inline-end;
+    margin-right:450px;
+   
+  }
+  
+  .my_pic img {
+    width: 200px;
+    height: 250px;
+    border-radius:50px 20px 50px;
+    box-shadow: rgba(18, 173, 230, 0.4) 5px 5px,
+     rgba(19, 168, 214, 0.3) 10px 10px,
+      rgba(25, 176, 218, 0.2) 15px 15px,
+       rgba(92, 213, 232, 0.1) 20px 20px, 
+       rgba(218, 29, 29, 0.05) 25px 25px;
+       margin-top: 200px;
+        margin-left:100%;
+    }
+    .about:hover
+    {
+        text-shadow:
+    1px 1px 2px rgb(25, 207, 227),
+    0 0 1em rgb(14, 194, 211),
+    0 0 0.2em rgb(17, 180, 192);
+    }
+    #intro {
+        margin-top:10em;
+        text-align:justify;
+        width: 100%;
+        color: aliceblue;
+        margin-top:800px;
+        margin-right:10px;
+        border-radius:8px;
+    
+    }
+    .sab {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        text-align: start;
+    }
+    .intro-me
+    {
+        margin-top:50px;
+        text-align:center;
+        width:800px;
+        margin-left:50px;
+    }
+    #myself
+    {
+        margin-right:90px;
+        margin-left:7px;
+        color: aliceblue;
+        text-align:start;
+        border-style: hidden;
+    }
+    .define
+    {
+       font-size:25px;
+       text-align:start;
+    }
+   
+    #intro:hover
+    {
+        box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+         rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+         width:900px;
+         border-style:solid;
+         margin-left:50px;
+    }
+  #skill
+  {
+      color: aliceblue;
+      display: flex;
+      margin-left:70px;  
+      margin:100px; 
+      background-image:url("skill.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(8px);
+      z-index:-1;
+  }
+  
+  .frontend,.backend,.programlangu
+  {
+     display:inline-block;
+     box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+     rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+     width:350px;
+     height:200px;
+     border-style:solid;
+     margin-left:50px;
+     margin:50px;
+     padding: 20px;
+     position: relative;
+     z-index: 2;
+     color: aliceblue;
+     text-align: center;
+     
+  }
+  .skill-list
+  {
+    padding:30px;
+  }
+  .skill-topic
+  {
+    padding:20px;
+  }
+  #skill:hover
+  {
+    box-shadow: 10px 5px 5px rgb(11, 212, 230);
+  }
+ 
+  .proj
+  {
+    color: aliceblue;
+    margin-left:90px;
+    padding:20px;
+  }
+  .my-proj,.my-proj2,.my-proj3
+  {
+    color: aliceblue;
+    display:inline-block;
+     box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+     rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+     width:350px;
+     height:200px;
+     border-style:solid;
+     margin-left:50px;
+     margin:50px;
+     padding: 20px;
+     margin:100px;
+     border-bottom-right-radius:100px;
+
+  }
+  .my-proj,.my-proj2,.my-proj3:hover
+  {
+    box-shadow: 10px 5px 5px rgb(11, 212, 230);
+
+  }*/
+  body {
+    background-color: black;
+}
+.header {
+    background-color: black;
+}
+.head {
+    color: rgb(24, 201, 232);
+    margin-right: auto;
+    padding: 30px;
+    text-shadow: rgb(15, 190, 238) 0 -2px;
+}
+
+.nav {
+    color: rgb(23, 222, 233);
+    display: flex;
+    justify-content: flex-end;
+    box-shadow:
+        inset 0 -3em 3em rgba(6, 194, 236, 0.3),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(7, 167, 212, 0.6);
+}
+
+.content {
+    color: rgb(16, 180, 225);
+    justify-content: space-around;
+    text-align: right;
+    padding: 30px;
+    text-align: end;
+    text-decoration: none;
+    text-shadow: rgb(14, 187, 240) 0 -2px;
+}
+.content:hover {
+    text-decoration: underline;
+    color: white;
+}
+.head:hover {
+    text-decoration: none;
+}
+.about {
+    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 35px;
+    float: inline-start;
+    margin-left: 350px;
+}
+
+.my_pic {
+    margin-top: 1em;
+    float: inline-end;
+    margin-right: 450px;
+}
+  
+.my_pic img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50px 20px 50px;
+    box-shadow: rgba(18, 173, 230, 0.4) 5px 5px,
+        rgba(19, 168, 214, 0.3) 10px 10px,
+        rgba(25, 176, 218, 0.2) 15px 15px,
+        rgba(92, 213, 232, 0.1) 20px 20px,
+        rgba(218, 29, 29, 0.05) 25px 25px;
+    margin-top: 200px;
+    margin-left: 100%;
+}
+
+.about:hover {
+    text-shadow:
+        1px 1px 2px rgb(25, 207, 227),
+        0 0 1em rgb(14, 194, 211),
+        0 0 0.2em rgb(17, 180, 192);
+}
+
+#intro {
+    margin-top: 10em;
+    text-align: justify;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 800px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.sab {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: start;
+}
+
+.intro-me {
+    margin-top: 50px;
+    text-align: center;
+    width: 800px;
+    margin-left: 50px;
+}
+
+#myself {
+    margin-right: 90px;
+    margin-left: 7px;
+    color: aliceblue;
+    text-align: start;
+    border-style: hidden;
+}
+
+.define {
+    font-size: 25px;
+    text-align: start;
+}
+
+#intro:hover {
+    box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+        rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+    width: 900px;
+    border-style: solid;
+    margin-left: 50px;
+}
+
+#skill {
+    color: white;
+    display: flex;
+    margin-left: 70px;
+    margin: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#skill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("skill.jpg");
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.frontend, .backend, .programlangu {
+    display: inline-block;
+    box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+        rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+    width: 350px;
+    height: 200px;
+    border-style: solid;
+    margin-left: 50px;
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    font-feature-settings: "fwid";
+    font-weight: bold;
+}
+
+.skill-list {
+    padding: 30px;
+}
+
+.skill-topic {
+    padding: 20px;
+}
+
+#skill:hover {
+    box-shadow: 10px 5px 5px rgb(11, 212, 230);
+}
+
+.proj {
+    color: aliceblue;
+    margin-left: 90px;
+    padding: 20px;
+}
+
+.my-proj, .my-proj2, .my-proj3 {
+    color: aliceblue;
+    display: inline-block;
+    box-shadow: rgba(10, 186, 218, 0.25) 0px 30px 60px -12px inset,
+        rgba(11, 166, 228, 0.3) 0px 18px 36px -18px inset;
+    width: 350px;
+    height: 200px;
+    border-style: solid;
+    margin-left: 50px;
+    margin: 50px;
+    padding: 20px;
+    margin: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.my-proj, .my-proj2, .my-proj3:hover {
+    box-shadow: 10px 5px 5px rgb(11, 212, 230);
+}
+
+
+  .skill-list{
+    animation-duration: 3s;
+    animation-name: slidein;
+    list-style-type:square;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  
+  
+}
+.pic-1
+{
+    display: flex;
+    width: 1500px;
+    margin-left:190px;
+    margin-top:50px;
+}
+.pic-3
+{
+    flex: 1;
+    height: 375px;
+    margin: 5px;
+    transition: flex-grow 0.8s ease;
+}
+.pic-3 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pic-3:hover
+{
+    flex-grow: 2;
+    box-shadow: rgba(60, 210, 226, 0.4) 0px 5px, rgba(61, 210, 220, 0.3) 0px 10px, rgba(9, 190, 240, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+#certificate
+{
+    color: aliceblue;
+    text-align: center;
+    margin-top:80px;
+    padding: 20px;
+}
+.icon
+{
+    color: #26d2de;
+    width:100px;
+    height:100px;
+    padding:20px;
+
+}
+#contact
+{
+    margin-left:720px;
+    margin-top:50px;
+}
+.download-button
+{
+    padding:30px;
+    margin:60px;
+    color: black;
+    background-color:rgb(29, 224, 234);
+    border-radius:50px;
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 80px;
+}
+.backend
+{
+    color:rgb(26, 225, 232)
+}
+.programlangu
+{
+    color:rgb(21, 194, 220);
+}
